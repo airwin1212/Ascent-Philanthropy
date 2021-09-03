@@ -5,3 +5,36 @@ h1 {
 h2 {
   font-family: "Quattrocento Sans", sans-serif;
 }
+
+:root {
+  --primary-color: #fabe15;
+  --secondary-color: #459b9ca4;
+  --tertiary-color: #243249;
+}
+
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+.hero {
+  margin: 0;
+  padding: 0px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+}
+
+.headerimage {
+  max-width: 300px;
+}
+
+.headerText {
+  padding-top: 50px;
+  margin: auto;
+  vertical-align: middle;
+}
