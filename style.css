@@ -2,14 +2,16 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
-h2 {
+h4 {
   font-family: "Quattrocento Sans", sans-serif;
+  color: rgb(240, 240, 240);
 }
 
 :root {
-  --primary-color: #fabe15;
-  --secondary-color: #459b9ca4;
-  --tertiary-color: #243249;
+  background-repeat: no-repeat;
+  --primary-color: #459a97;
+  --secondary-color: #fcbe13;
+  --tertiary-color: #223148;
 }
 
 body {
@@ -17,16 +19,14 @@ body {
   margin: 0;
 }
 
-.hero {
-  margin: 0;
-  padding: 0px;
-  background-color: var(--secondary-color);
-  text-align: center;
-}
-
 img {
   display: inline;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .headerimage {
@@ -37,4 +37,78 @@ img {
   padding-top: 50px;
   margin: auto;
   vertical-align: middle;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0px;
+  padding-bottom: 50px;
+  margin: 0px 0px;
+}
+
+.hero {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  padding: 10px 0px;
+  width: 250px;
+}
+
+.heroButtons {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px;
+  background-color: white;
+  border: solid var(--secondary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: var(--secondary-color);
+}
+
+.navbarRow {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.navbar {
+  padding-top: 28px;
+  padding-right: 0px;
+  font-family: "Quattrocento Sans", sans-serif;
+  justify-content: end;
+}
+
+.nav-item {
+  color: var(--tertiary-color) !important;
+}
+
+.heroButtons:hover {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px;
+  background-color: var(--secondary-color);
+  border: solid var(--secondary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
+.yellow {
+  background-color: var(--secondary-color);
+  text-align: center;
+  color: var(--tertiary-color);
+  padding: 0px;
+  font-size: 20px;
+}
+
+.icons {
+  padding: 0px 10px;
 }
