@@ -85,7 +85,7 @@ a {
 .heroButtons:hover {
   padding: 15px 25px;
   width: 200px;
-  margin: 21px;
+  margin: 20px;
   background-color: var(--secondary-color);
   border: solid var(--secondary-color) 3px;
   border-radius: 10px;
@@ -223,4 +223,10 @@ a {
   background-color: var(--tertiary-color);
   text-align: center;
   color: white;
+}
+
+@media (max-width: 576px) {
+  project-desciption {
+    text-align: center;
+  }
 }
