@@ -2,6 +2,15 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
+h2,
+h5 {
+  color: var(--tertiary-color);
+}
+
+h3 {
+  font-size: 96px;
+}
+
 h4 {
   font-family: "Quattrocento Sans", sans-serif;
   color: rgb(240, 240, 240);
@@ -73,6 +82,18 @@ a {
   color: var(--secondary-color);
 }
 
+.heroButtons:hover {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 21px;
+  background-color: var(--secondary-color);
+  border: solid var(--secondary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
 .navbarRow {
   margin: 0 auto;
   max-width: 1200px;
@@ -89,18 +110,6 @@ a {
   color: var(--tertiary-color) !important;
 }
 
-.heroButtons:hover {
-  padding: 15px 25px;
-  width: 200px;
-  margin: 20px;
-  background-color: var(--secondary-color);
-  border: solid var(--secondary-color) 3px;
-  border-radius: 10px;
-  font-family: "Raleway", sans-serif;
-  color: white;
-  transition: all 250ms ease-in-out;
-}
-
 .yellow {
   background-color: var(--secondary-color);
   text-align: center;
@@ -111,4 +120,107 @@ a {
 
 .icons {
   padding: 0px 10px;
+}
+
+.bookImage {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.buyButton {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px 20px 20px 0px;
+  background-color: white;
+  background-color: var(--tertiary-color);
+  border: solid var(--tertiary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(165, 165, 165, 0.2);
+}
+
+.buyButton:hover {
+  padding: 20px 25px;
+  width: 220px;
+  margin: 20px 20px 20px 0px;
+  background-color: white;
+  background-color: var(--tertiary-color);
+  border: solid var(--tertiary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(165, 165, 165, 0.2);
+  transition: all 250ms ease-in-out;
+}
+
+.bookButtons {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px 20px 20px 0px;
+  background-color: white;
+  border: solid var(--tertiary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: var(--tertiary-color);
+  box-shadow: 5px 5px 5px rgb(165, 165, 165, 0.2);
+}
+
+.bookButtons:hover {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px 20px 20px 0px;
+  background-color: #5f6c85;
+  border: solid #5f6c85 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
+.mentoringButton {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px 20px 0px 20px;
+  background-color: white;
+  border: solid white 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: var(--tertiary-color);
+}
+
+.mentoringButton:hover {
+  padding: 15px 25px;
+  width: 200px;
+  margin: 20px 20px 0px 20px;
+  background-color: var(--primary-color);
+  border: solid var(--primary-color) 3px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
+.topBook {
+  padding-top: 50px;
+}
+
+.booktitle {
+  padding-top: 50px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.mentoring {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+  background-color: var(--tertiary-color);
+  text-align: center;
+  color: white;
 }
