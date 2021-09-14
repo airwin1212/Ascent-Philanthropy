@@ -325,6 +325,21 @@ nav a.active {
   .hero {
     height: 600px;
   }
+  .heroBooks {
+    height: 400px;
+    padding-top: 20px;
+  }
+  .bookImage {
+    display: none;
+  }
+  .card-body {
+    margin: 0;
+    padding: 0px;
+  }
+  .card {
+    margin: 0;
+    padding: 0px;
+  }
 }
 
 .card {
