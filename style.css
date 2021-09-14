@@ -315,22 +315,51 @@ nav a.active {
   color: white;
 }
 
-@media (max-width: 576px) {
-  project-desciption {
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     text-align: center;
+  }
+  project-desciption {
+    align-items: center;
+    margin: 0 auto;
   }
   .container {
     align-items: center;
   }
   .hero {
-    height: 600px;
+    height: 570px;
+    padding-top: 20px;
   }
   .heroBooks {
     height: 400px;
     padding-top: 20px;
   }
+  .headerText {
+    padding-top: 0px;
+    margin-top: 0;
+  }
   .bookImage {
     display: none;
+  }
+  .buyButtonHomepage,
+  .bookButtons {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .booktitle {
+    padding: 20px 0px 0px 0px;
+    margin-top: 0;
+  }
+  .books {
+    padding: 20px 0px;
   }
   .card-body {
     margin: 0;
