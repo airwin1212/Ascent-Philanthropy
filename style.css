@@ -2,10 +2,6 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
-.pageHeader {
-  font-size: 60px;
-}
-
 h2,
 h5,
 h6,
@@ -69,8 +65,8 @@ a:hover {
 }
 
 .headerText {
-  padding-top: 50px;
-  margin: auto;
+  padding-top: 30px;
+  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -99,7 +95,7 @@ a:hover {
   display: block;
   margin: 0 auto;
   align-items: center;
-  padding: 20px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
   background-color: var(--primary-color);
   text-align: center;
   color: white;
@@ -148,6 +144,11 @@ a:hover {
   font-family: "Raleway", sans-serif;
   color: white;
   transition: all 250ms ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  font-weight: bolder;
 }
 
 .navbarRow {
