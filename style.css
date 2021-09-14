@@ -319,6 +319,12 @@ nav a.active {
   project-desciption {
     text-align: center;
   }
+  .container {
+    align-items: center;
+  }
+  .hero {
+    height: 600px;
+  }
 }
 
 .card {
