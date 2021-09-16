@@ -173,6 +173,10 @@ nav a.active {
   padding: 0px 10px;
 }
 
+.project-desciption {
+  align-items: center;
+}
+
 .bookImage {
   display: block;
   margin: 0 auto;
@@ -277,11 +281,10 @@ nav a.active {
 }
 
 .books {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .topBook {
-  margin-left: 20px;
   padding-left: 0px;
 }
 
@@ -316,12 +319,16 @@ nav a.active {
   }
   .books h2,
   h5,
-  p {
+  p,
+  button {
     text-align: center;
   }
-  .buttons {
-    display: inline;
+  .buyButtonHomepage,
+  .bookButtons {
+    display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -388,6 +395,9 @@ nav a.active {
   .heroBooks,
   .heroContact {
     padding: 30px 0px;
+  }
+  .books img {
+    display: none;
   }
 }
 
