@@ -424,19 +424,20 @@ nav a.active {
   border: none;
 }
 
-.footer {
+footer {
   background-color: #efedea;
   padding: 50px 0px 30px 0px;
   margin-bottom: 0px;
   text-align: center;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
 }
 
-.footer i {
+footer i {
   color: var(--secondary-color);
   font-size: 40px;
 }
 
-.footer a:hover {
+footer a:hover {
   text-decoration: underline;
 }
