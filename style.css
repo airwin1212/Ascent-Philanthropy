@@ -60,6 +60,33 @@ a:hover {
   color: inherit;
 }
 
+.navbarRow img {
+  display: block;
+  margin: 0;
+}
+
+nav a:hover,
+nav a.active {
+  font-weight: bolder;
+}
+
+.navbarRow {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.navbar {
+  padding-top: 28px;
+  padding-right: 0px;
+  font-family: "Quattrocento Sans", sans-serif;
+  justify-content: end;
+}
+
+.nav-item {
+  color: var(--tertiary-color) !important;
+}
+
 .headerimage {
   max-width: 300px;
 }
@@ -132,33 +159,6 @@ a:hover {
   font-family: "Raleway", sans-serif;
   color: white;
   transition: all 250ms ease-in-out;
-}
-
-.navbarRow img {
-  display: block;
-  margin: 0;
-}
-
-nav a:hover,
-nav a.active {
-  font-weight: bolder;
-}
-
-.navbarRow {
-  background-color: white;
-  margin: 0 auto;
-  max-width: 1500px;
-}
-
-.navbar {
-  padding-top: 28px;
-  padding-right: 0px;
-  font-family: "Quattrocento Sans", sans-serif;
-  justify-content: end;
-}
-
-.nav-item {
-  color: var(--tertiary-color) !important;
 }
 
 .yellow {
